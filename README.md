@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-x-socialsharing/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-x-socialsharing/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cordova-plugin-x-socialsharing/build/coverage.html/index.html)
 
@@ -35,9 +35,12 @@
 ```json
 
 {
-    "name": "cordova-plugin-x-socialsharing",
-    "version": "5.1.7",
-    "description": "Share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.",
+    "author": {
+        "name": "Eddy Verbruggen - @EddyVerbruggen"
+    },
+    "bugs": {
+        "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues"
+    },
     "cordova": {
         "id": "cordova-plugin-x-socialsharing",
         "platforms": [
@@ -46,10 +49,22 @@
             "wp8"
         ]
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
+    "dependencies": {},
+    "description": "Share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "a052319fe6e061a5ca897bdc58db3d76ac0be0f6",
+        "tarball": "https://registry.npmjs.org/cordova-plugin-x-socialsharing/-/cordova-plugin-x-socialsharing-5.1.7.tgz"
     },
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "gitHead": "9f7c85423c75c4cc2557cb5bb8bb3cca631a4a78",
+    "homepage": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin#readme",
     "keywords": [
         "Social",
         "Share",
@@ -67,18 +82,21 @@
         "cordova-android",
         "cordova-windows"
     ],
-    "engines": [
+    "license": "MIT",
+    "maintainers": [
         {
-            "name": "cordova",
-            "version": ">=3.0.0"
+            "name": "eddyverbruggen"
         }
     ],
-    "author": "Eddy Verbruggen - @EddyVerbruggen",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues"
+    "name": "cordova-plugin-x-socialsharing",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
     },
-    "homepage": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin#readme"
+    "scripts": {},
+    "version": "5.1.7",
+    "bin": {}
 }
 ```
 
